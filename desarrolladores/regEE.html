@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+	<title></title>
+	<style type="text/css">
+        
+        #form
+        {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+		
+		@media screen and (min-width: 1300px)
+		{
+			#form
+			{
+				padding:100px; 
+				padding:100px;
+				padding:100px;
+				margin-top: 100px;
+				margin-right:500px;
+				margin-left:500px;
+			}
+		}
+
+		@media screen and (min-width: 600px) and (max-width: 1300px) 
+		{
+			#form
+			{   
+				padding:50px; 
+				padding:50px;
+				padding:50px;
+				margin-top: 100px;
+				margin-right:100px;
+				margin-left:100px;
+			}
+		}
+		
+		@media screen  and (max-width: 600px)/*hasta 600 pixeles*/
+		{
+			
+			 #form
+			 {
+			    background
+			    padding:20px; 
+				padding:20px;
+				padding:20px;
+				margin-top: 50px;
+				margin-right:50px;
+				margin-left:50px;
+			 } 
+		}
+		html
+		{
+		    background-image:url("https://fondosmil.com/fondo/26788.jpg");
+		}
+		
+	</style>
+</head>
+<body>
+    <div class="field is-grouped">
+		  <div class="control">
+		    <a href="../sesion/cerrarsesion"><button class="button is-link">Salir</button></a>
+	      </div>
+	</div>
+<form action="adddbenfe" method="post">
+	<div id="form">
+		<div class="field">
+		  <label class="label"><font color="#fff">Nombre de la enfermedad</font></label>
+		  <div class="control">
+		    <input class="input" type="text" placeholder="Nombre" name="enfermedad">
+		  </div>
+		</div>
+		<center>
+		<div class="field">
+		  <label class="label"><font color="#fff">Tipo</font></label>
+		  <div class="control">
+		    <div class="select">
+		      <select name="tipo">
+		        <option>Fruta</option>
+		        <option>Verdura</option>
+		        <option>Planta</option>
+		      </select>
+		    </div>
+		  </div>
+		</div>
+		<div class="field">
+		  <label class="label"><font color="#fff">Color</font></label>
+		  <div class="control">
+		    <div class="select">
+		      <select name="color">
+		        <option>Amarilloso</option>
+		        <option>Verdoso</option>
+		        <option>Rojo</option>
+		        <option>Grisaseo</option>
+		      </select>
+		    </div>
+		  </div>
+		</div>
+		<div class="field">
+		  <label class="label"><font color="#fff">Textura</font></label>
+		  <div class="control">
+		    <div class="select">
+		      <select name="textura">
+		        <option>Dura</option>
+		        <option>Fragil/Blanda</option>
+		        <option>Con bultos</option>
+		        <option>Lisa</option>
+		        <option>Con rajaduras</option>
+		      </select>
+		    </div>
+		  </div>
+		</div>
+	</center>
+		<div class="field">
+		  <label class="label"><font color="#fff">Descripción general</font></label>
+		  <div class="control">
+		    <textarea name="descripcion" class="textarea" placeholder="Ingrese su descripción visual"></textarea>
+		  </div>
+		</div>
+
+		<div class="field is-grouped">
+		  <div class="control">
+		    <button type="submit" class="button is-link">Agregar</button>
+		  </div>
+		</div>
+    </div>
+</form>
+</body>
+</html>
