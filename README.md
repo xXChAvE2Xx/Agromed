@@ -1,2 +1,2 @@
 # Agromed
-Proyecto de la escuela, en la cual se debía crear una PWA, se eligió crear una aplicación web para identificar enfermedades de plagas a través de un pequeño formulario.
+Durante nuestra carrera desarrollamos una aplicación web para ofrecer servicios relacionados con las soluciones para resolver problemas con todo tipo de plagas de plantas, y todo esto desarrollado como un PWA para mejorar la interacción de la aplicación web con los usuarios.
